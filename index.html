@@ -1,77 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Instagram Scraper Tool</title>
+    <title>Instagram Scraper</title>
   </head>
   <body>
-    <header>
-      <h1>Instagram Scraper Tool</h1>
-    </header>
-    <nav>
-      <ul>
-        <li><a href="#signup">Sign Up</a></li>
-        <li><a href="#login">Log In</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <main>
-      <section id="signup">
-        <h2>Sign Up</h2>
-        <form action="/signup" method="post">
-          <div>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username">
-          </div>
-          <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-          </div>
-          <div>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password">
-          </div>
-          <div>
-            <label for="payment">Payment Method:</label>
-            <select id="payment" name="payment">
-              <option value="paypal">PayPal</option>
-              <option value="stripe">Stripe</option>
-              <option value="square">Square</option>
-            </select>
-          </div>
-          <button type="submit">Sign Up</button>
-        </form>
-      </section>
-      <section id="login">
-        <h2>Log In</h2>
-        <form action="/login" method="post">
-          <div>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username">
-          </div>
-          <div>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password">
-          </div>
-          <button type="submit">Log In</button>
-        </form>
-      </section>
-      <section id="about">
-        <h2>About</h2>
-        <p>This website offers a tool for scraping information about Instagram posts, including likes, comments, and SEO tags. To use the tool, you must sign up for a monthly subscription.</p>
-      </section>
-      <section id="contact">
-        <h2>Contact</h2>
-        <form action="/contact" method="post">
-          <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
-          </div>
-          <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-          </div>
-          <div>
-            <label for="message">Message:</label>
-            <text
-            
+    <h1>Instagram Scraper</h1>
+    <form>
+      <label for="username">Instagram username:</label>
+      <input type="text" id="username" name="username">
+      <br><br>
+      <input type="submit" value="Scrape">
+    </form>
+    <br>
+    <div id="results"></div>
+    <script>
+      // Add JavaScript code to call the Instagram API and display the results
+    </script>
+  </body>
+</html>
